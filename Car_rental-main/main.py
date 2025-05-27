@@ -7,7 +7,7 @@ from time import gmtime, strftime
 
 hostname = 'localhost'
 username = 'root'
-password = 'Pragnan@2004'
+password = 'chandu@2004'
 database = 'car_rental'
 myConnection = pymysql.connect(host=hostname, user=username, passwd=password, db=database, autocommit=True,
                                cursorclass=pymysql.cursors.DictCursor, local_infile=True)
